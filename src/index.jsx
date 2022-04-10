@@ -1,8 +1,9 @@
-import React from 'react';
+// Importação do react, react-dom e a estrutura CSS do projeto
+import React from 'react'; 
 import ReactDOM from 'react-dom';
 import './index.css';
 
-function Square(props) {
+function Square(props) { // Os quadrados são botões
   return (
     <button className="square" onClick={props.onClick}>
       {props.value}
@@ -44,15 +45,15 @@ class Board extends React.Component {
     const winner = calculateWinner(this.state.squares);
     let status;
     if (winner) {
-        status = 'Vencedor: ' + winner + '! Parabéns, ganhou um bolo';
+        status = 'Vencedor: ' + winner + '! Parabéns, ganhou um bolo'; // Caso tenha algum ganhador na partida, essa será a mensagem que aparecerá para o usuário
     }
     else {
-        status = 'Turno do : ' + (this.state.xIsNext ? 'X' : 'O');
-    }
+        status = 'Turno do : ' + (this.state.xIsNext ? 'X' : 'O'); // 'Caso contrário' ou seja, enquanto o jogo não terminar, será essa a mensagem que aparecerá, dando continuidade ao jogo
+    } // É possível fazer um novo else para caso tenha impate e não há um jogador, pois por enquanto a mensagem que irá aparecer é somente a que está agora, 'Turno do:' e o próximo jogador.
 
-    return (
+    return ( // É aqui onde está renderizando os quadrados que é possível visualizar no projeto, todos eles numerados de 0 ao 8 e utilizando a estrutura do HTML
       <div>
-        <div className="status">{status}</div>
+        <div className="status">{status}</div> 
         <div className="board-row">
           {this.renderSquare(0)}
           {this.renderSquare(1)}
@@ -93,12 +94,12 @@ class Board extends React.Component {
   
   // ========================================
   
-  ReactDOM.render(
+  ReactDOM.render( // Tem a função chamada render, onde é passado um parâmetro e executa um elemento
     <Game />,
     document.getElementById('root')
   );
   
-  function calculateWinner(squares) {
+  function calculateWinner(squares) { // Função que determina o jogador, ou seja, aquele que preencha um dos três quadrados em uma das linhas, inclusive na vertical
   const lines = [
     [0, 1, 2],
     [3, 4, 5],
