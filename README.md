@@ -1,6 +1,7 @@
 # Projeto Jogo da Velha (Tic Tac Toe)
 
 Projeto criado com intuito de estudo da linguagem React, seguindo o tutorial da introdução ao React localizado no [próprio site da linguagem](https://pt-br.reactjs.org/tutorial/tutorial.html).
+
 ![Visualização do projeto](https://cdn.discordapp.com/attachments/905899589553500220/962722835414003763/print.png)
 
 
