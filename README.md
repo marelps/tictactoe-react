@@ -17,5 +17,5 @@
 - [[ENG] Tutorial: Intro to React](https://reactjs.org/tutorial/tutorial.html)
 - [[PT-BR] Introdução](https://pt-br.reactjs.org/docs/getting-started.html)
 - [[ENG] Getting Started](https://reactjs.org/docs/getting-started.html)
-- [[ENG] Getting Started | Create React App](https://create-react-app.dev/docs/getting-started)
+- [[ENG] Getting Started - Create React App](https://create-react-app.dev/docs/getting-started)
 - [Create React App](https://github.com/facebook/create-react-app#create-react-app--)
