@@ -1,0 +1,14 @@
+Tic Tac Toe project
+Project created with the purpose of studying the React language, following the intro to react tutorial located on the language's own website [language's own website](https://pt-br.reactjs.org/tutorial/tutorial.html).
+
+Observations
+The project was done locally using the [Create React App](https://github.com/facebook/create-react-app#create-react-app--), throughout the code you can see some comments made by me for annotation purposes and to understand the process done, there are also some changes of my choice in the CSS files of the project.
+<p align="center">
+<img src="https://cdn.discordapp.com/attachments/905899589553500220/962722835414003763/print.png" alt="Project Preview">
+</p>
+
+Helpful links
+- [[ENG] Tutorial: Intro to React](https://reactjs.org/tutorial/tutorial.html)
+- [[ENG] Getting Started](https://reactjs.org/docs/getting-started.html)
+- [[ENG] Getting Started - Create React App](https://create-react-app.dev/docs/getting-started)
+- [Create React App](https://github.com/facebook/create-react-app#create-react-app--)
