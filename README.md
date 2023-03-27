@@ -5,7 +5,7 @@
   </a>
   <img alt="Github last commit" src="https://img.shields.io/github/last-commit/marelps/tictactoe-react?style=flat-square">
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-  <a href="https://rocketseat.com.br">
+  <a href="">
     <img alt="Feito por Vitória" src="https://img.shields.io/badge/feito%20por-Vitória-%237519C1">
   </a>
 
@@ -17,16 +17,17 @@
 <p align="center">
  <a href="#objetivo">Objetivo</a> •
  <a href="#instalação">Instalação</a> • 
- <a href="#documentação">Documentação </a> • 
+ <a href="#documentação">Documentação</a> •  
  <a href="#autor">Autor</a> • 
   <a href="#licença">Licença</a> • 
- <a href="#readme">Versões do README</a>
+ <a href="#readme">README</a>
 </p>
 
-## Objetivo do projeto
-Projeto criado com intuito de estudar a biblioteca React, seguindo o tutorial de introdução ao React localizado no [próprio site da linguagem](https://pt-br.reactjs.org/tutorial/tutorial.html). O arquivo original tem muitos passos que deveriam ter sido apagados durante o processo, mas deixei comentado para que eu pudesse estudar no futuro e durante o próprio projeto. 
+## Objetivo
+### Objetivo do projeto
+Projeto criado com intuito de estudar a biblioteca React, seguindo o tutorial de introdução ao React localizado no [próprio site da linguagem](https://react.dev/learn/tutorial-tic-tac-toe). O arquivo original tem muitos passos que deveriam ter sido apagados durante o processo, mas deixei comentado para que eu pudesse estudar no futuro e durante o próprio projeto. 
 ### Objetivo do jogo
-O objetivo do jogo é bem simples, assim como ja é bem conhecido no jogo da velha. Para jogar é necessário que participe duas pessoas e que joguem alternadamente, preenchendo os espaços vazios.</br>
+O objetivo do jogo é bem simples, assim como já é bem conhecido no jogo da velha. Para jogar é necessário que participe duas pessoas e que joguem alternadamente, preenchendo os espaços vazios.</br>
 O passo de cada jogador é definido por X ou O e o objetivo de cada um é formar uma linha com três simbolos iguais, seja ela na horizontal, vertical ou diagonal, vence quem conseguir preencher primeiro.
 
 <p align="center">
@@ -35,14 +36,22 @@ O passo de cada jogador é definido por X ou O e o objetivo de cada um é formar
 
 
  ## Instalação
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam accumsan velit nec lorem rhoncus porttitor. Mauris finibus aliquet nulla sed bibendum. Phasellus suscipit dolor at eros iaculis volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id semper enim. Aliquam quis commodo velit, ut lobortis lectus. Donec eu risus ac enim interdum condimentum. Donec neque augue, scelerisque in tempus eu, auctor at dui. Integer nec lectus turpis. Vivamus auctor maximus nisl, et sollicitudin arcu aliquet ac. Sed eget tincidunt augue. Proin augue neque, tempus ac nunc ut, scelerisque congue dui. Integer blandit turpis eu orci tincidunt pulvinar. Nam dapibus enim sed mollis cursus.
-
+É possível visualizar o projeto sem nenhuma instalação através do [codepen.io](https://codepen.io/marelps/pen/RwYvwwy), no mesmo site também é possível visualizar toda a linha de código (sem os comentários).
+</br> </br>
+Também é possível clonar o repositório localmente através do HTTPS, SSH e GitHub CLI.
+</br> </br>
+Não esqueça que é necessário instalar o  `node_modules` pois ele não é vem junto com o repositório clonado. Para instala-lo utilize o comando para instalar todas as dependências mencionadas no arquivo `package.json` :
+```
+npm instal
+```
+Após isso, para rodar o projeto, utilize:
+```
+npm start
+```
 
 ## Documentação
-A documentação do React é possível encontrar no [próprio website](https://pt-br.reactjs.org/docs/getting-started.html).
- ```
-Lorem ipsum
- ```
+A documentação do React é possível encontrar no [próprio website da biblioteca](https://react.dev/).
+
  ***
 ## Autor
 <p align="center">
@@ -66,15 +75,3 @@ Feito com ❤️ por Vitória Garrucho
 
 ## README
 [Português](./README.md)  |  [English](./README-en.md)
-
-
-
-<!-- ## Observações
-O projeto foi feito de maneira local utilizando o [Create React App](https://github.com/facebook/create-react-app#create-react-app--), ao decorrer do código é possível ver alguns comentários feitos por mim para fins de anotação e entendimento do processo feito, também há algumas alterações de minha escolha no arquivos CSS do projeto. <br /><br />
-
-
-### Links uteis
-- [[PT-BR] Tutorial: Introdução ao React](https://pt-br.reactjs.org/tutorial/tutorial.html)
-- [[PT-BR] Introdução](https://pt-br.reactjs.org/docs/getting-started.html)
-- [[ENG] Getting Started - Create React App](https://create-react-app.dev/docs/getting-started)
-- [Create React App](https://github.com/facebook/create-react-app#create-react-app--) -->
