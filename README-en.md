@@ -11,7 +11,7 @@
 
 # Tic Tac Toe React project
 <h4 align="center"> 
-	✅ Project Completed ✅
+	✅ Completed Project ✅
 </h4>
 
 <p align="center">
